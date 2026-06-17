@@ -8,6 +8,7 @@ from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 from pytorch_grad_cam.utils.image import show_cam_on_image
 
 class Evaluation:
+    #mertics check class for devs and analytics
     def __init__(self, y_true, y_pred, class_names):
         self.y_true = y_true
         self.y_pred = y_pred

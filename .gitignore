@@ -1,0 +1,11 @@
+#Ignore PyTorch weights and data
+*.pth
+*.pt
+models/
+data/
+EuroSATallBands/
+*.zip
+
+#Ignore python Cache
+__pycache__/
+.ipynb_checkpoints/
