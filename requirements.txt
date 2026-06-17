@@ -4,6 +4,6 @@ numpy
 matplotlib
 rasterio
 scikit-learn
-pytorch-grad-cam
+grad-cam
 tqdm
 kaggle
