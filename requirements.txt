@@ -2,6 +2,7 @@ torch
 torchvision
 numpy
 matplotlib
+pillow
 rasterio
 scikit-learn
 grad-cam

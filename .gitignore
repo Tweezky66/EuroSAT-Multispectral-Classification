@@ -1,11 +1,20 @@
-#Ignore PyTorch weights and data
+#Python Virtual Environments
+.venv/
+venv/
+env/
+
+#Python Cache
+__pycache__/
+*.pyc
+
+# Model Weights (CRITICAL to ignore)
 *.pth
 *.pt
-models/
-data/
-EuroSATallBands/
-*.zip
+*.onnx
 
-#Ignore python Cache
-__pycache__/
+#Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+#OS generated files
+.DS_Store
+Thumbs.db
