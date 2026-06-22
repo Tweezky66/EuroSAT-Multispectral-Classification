@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./resnet18_4channel_v1.pth:/app/resnet18_4channel_v1.pth
+
+  ui:
+    build: ./EuroSAT-UI
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    environment:
+      - PYTHON_API_URL=http://api:8000

@@ -1,0 +1,23 @@
+#Git
+.git
+.gitignore
+
+#python Virtual enviroments
+.venv/
+venv/
+env/
+
+#pthon  cache
+__pycache__/
+*.pyc
+
+
+
+#jypiter notebooks
+.ipynb_checkpoints/
+notebook/
+
+#All UI here cause it .dockerignore only belong to the backend image
+EuroSAT-UI/
+node_modules/
+.next/
